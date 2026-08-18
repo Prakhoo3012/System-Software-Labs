@@ -1,0 +1,1 @@
+just after excution just explore /proc/pid in another terminal
