@@ -1,0 +1,2 @@
+Written via fd1
+Written via fd2 (fcntl)
