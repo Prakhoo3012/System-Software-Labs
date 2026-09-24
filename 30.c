@@ -10,7 +10,7 @@ int main() {
         struct tm *t = localtime(&now);
 
         if (t->tm_hour == 12 && t->tm_min == 0)
-            system("echo task executed >> files/lab30.txt");
+            system("echo task executed >> lab30.txt");
 
         sleep(60);
     }
