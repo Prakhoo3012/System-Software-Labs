@@ -18,6 +18,8 @@ int main() {
     lseek(fd, 8, SEEK_SET);
     write(fd, "RECORD1!\n", 9);
 
+    sleep(30);
+
     lock.l_type = F_UNLCK;
     fcntl(fd, F_SETLK, &lock);
 
